@@ -1,3 +1,7 @@
+#Find easydict module
+import sys
+sys.path.insert(0,"/home/ec2-user/anaconda3/lib/python3.6/site-packages/easydict-1.7")
+
 from easydict import EasyDict as edict
 import json
 
