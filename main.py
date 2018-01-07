@@ -202,7 +202,7 @@ def test(file):
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('-m', '--mode', choices=['train','test'], default='train', help='select mode')
+    parser.add_argument('-m', '--mode', choices=['train','test'], default='test', help='select mode')
     parser.add_argument('-f','--file', help='input file')
     
     args = parser.parse_args()
